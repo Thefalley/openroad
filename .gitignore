@@ -105,3 +105,31 @@ bazel-testlogs
 
 # python venv
 venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Python cache
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Temp / backup
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Generated chip plots (pueden regenerarse)
+chips/*.webp
+chips/*.png
